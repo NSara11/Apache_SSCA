@@ -101,6 +101,7 @@
                         <port>8012</port>
                     </httpConnector>
                 </configuration>
+                     </plugin>
                      <plugin>
      				<groupId>org.cyclonedx</groupId>
      				<artifactId>cyclonedx-maven-plugin</artifactId>
@@ -116,7 +117,6 @@
     				 <configuration>
        			  	<outputFormat>Json</outputFormat>
      			</configuration>
-  			</plugin>
             </plugin>
         </plugins>
     </build>
